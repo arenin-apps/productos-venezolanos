@@ -99,30 +99,9 @@
     "fechaAgregado": "2026-10-20"
   },
   {
-    "id": "peters-panas",
-    "nombre": "Peter's Panas",
-    "tipo": "Por confirmar",
-    "pais": "Inglaterra",
-    "county": "Greater London",
-    "ciudad": "Woolwich, Londres",
-    "direccion": null,
-    "mapsUrl": null,
-    "telefono": "+44 7306 330062",
-    "sitioWeb": null,
-    "redes": [],
-    "productos": [
-      "Comida congelada",
-      "Tequeños"
-    ],
-    "envios": "Figura con entrega de comida congelada (sin confirmar)",
-    "horario": null,
-    "descripcion": "Food truck y catering de comida venezolana en Woolwich (arepas, tequeños, empanadas, tres leches). Un directorio de empresas lo lista con venta de congelados, pero no encontramos su web: consulta antes por teléfono.",
-    "fechaAgregado": "2026-10-20"
-  },
-  {
     "id": "yummyrolls-bakery",
     "nombre": "Yummyrolls Bakery",
-    "tipo": "Por confirmar",
+    "tipo": "Panadería",
     "pais": "Inglaterra",
     "county": "Greater London",
     "ciudad": "Harringay, Londres",
@@ -142,7 +121,7 @@
   {
     "id": "chatica",
     "nombre": "Chatica (La Chatica)",
-    "tipo": "Por confirmar",
+    "tipo": "Tienda latina",
     "pais": "Inglaterra",
     "county": "Greater London",
     "ciudad": "Elephant & Castle, Londres",
@@ -165,7 +144,7 @@
   {
     "id": "distriandina",
     "nombre": "DistriAndina",
-    "tipo": "Por confirmar",
+    "tipo": "Tienda latina",
     "pais": "Inglaterra",
     "county": "Greater London",
     "ciudad": "Elephant & Castle, Londres",
@@ -185,7 +164,7 @@
   {
     "id": "mercado-latino",
     "nombre": "Mercado Latino",
-    "tipo": "Por confirmar",
+    "tipo": "Tienda latina",
     "pais": "Inglaterra",
     "county": "Greater London",
     "ciudad": "Elephant & Castle, Londres",
