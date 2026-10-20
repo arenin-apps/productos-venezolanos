@@ -1,0 +1,101 @@
+[
+  {
+    "id": "liqui-liqui",
+    "nombre": "Liqui-Liqui",
+    "tipo": "Restaurante y tienda",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Colliers Wood, Londres",
+    "direccion": "4-6 Merton High Street, London, SW19 1DN",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=4-6%20Merton%20High%20Street%2C%20London%2C%20SW19%201DN",
+    "telefono": "020 8408 1136",
+    "email": "info@liqui-liqui.com",
+    "sitioWeb": "https://www.liqui-liqui.com/shop",
+    "redes": [
+      {
+        "plataforma": "Instagram",
+        "handle": "@liquiliquilondon"
+      },
+      {
+        "plataforma": "Facebook",
+        "handle": "LiquiLiquiLondon"
+      }
+    ],
+    "productos": [
+      "Comida congelada",
+      "Harina PAN",
+      "Quesos venezolanos",
+      "Cerveza Polar",
+      "Snacks y dulces",
+      "Papelón"
+    ],
+    "envios": "Todo el Reino Unido continental (martes a viernes, £14 hasta 8 kg) o retiro en el local",
+    "horario": null,
+    "descripcion": "Restaurante familiar con tienda online: tequeños, cachitos, empanadas, carne mechada, arepas y tostones congelados, además de Harina PAN, quesos venezolanos, cerveza Polar, papelón y golosinas.",
+    "fechaAgregado": "2026-10-20",
+    "latitude": 51.416567,
+    "longitude": -0.181662
+  },
+  {
+    "id": "arepa-and-co-eshop",
+    "nombre": "Arepa & Co (tienda online)",
+    "tipo": "Tienda online",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "email": "hello@arepaandco.com",
+    "sitioWeb": "https://www.arepaandco.com/collections/food",
+    "redes": [],
+    "productos": [
+      "Comida congelada"
+    ],
+    "envios": "Todo el Reino Unido (envío al día siguiente, despacho lunes y miércoles) o retiro en sus restaurantes",
+    "horario": null,
+    "descripcion": "La cadena de restaurantes venezolanos de Londres vende en su tienda online tequeños, pastelitos, caraotas negras, carne mechada y, en fechas navideñas, hallacas y pan de jamón. Sus locales están en la guía de restaurantes.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "somerset-foodie",
+    "nombre": "Somerset Foodie",
+    "tipo": "Tienda online (general)",
+    "pais": "Inglaterra",
+    "county": "Somerset",
+    "ciudad": "Rode",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": "+44 7834 852561",
+    "email": "hello@somersetfoodie.com",
+    "sitioWeb": "https://somersetfoodie.com/products/pan-harina-de-maiz-blanco-1kg",
+    "redes": [],
+    "productos": [
+      "Harina PAN"
+    ],
+    "envios": "Todo el Reino Unido (desde £3,99; no envía productos congelados)",
+    "horario": null,
+    "descripcion": "Tienda gourmet británica que no es venezolana pero vende Harina PAN blanca y amarilla de 1 kg para arepas, empanadas y hallacas.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "sous-chef",
+    "nombre": "Sous Chef",
+    "tipo": "Tienda online (general)",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "sitioWeb": "https://www.souschef.co.uk/products/harina-pan-white",
+    "redes": [],
+    "productos": [
+      "Harina PAN"
+    ],
+    "envios": "Todo el Reino Unido (envío gratis desde £60)",
+    "horario": null,
+    "descripcion": "Tienda británica de ingredientes y cocina que vende Harina PAN blanca y amarilla de 1 kg.",
+    "fechaAgregado": "2026-10-20"
+  }
+]
