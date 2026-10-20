@@ -97,5 +97,109 @@
     "horario": null,
     "descripcion": "Tienda británica de ingredientes y cocina que vende Harina PAN blanca y amarilla de 1 kg.",
     "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "peters-panas",
+    "nombre": "Peter's Panas",
+    "tipo": "Por confirmar",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Woolwich, Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": "+44 7306 330062",
+    "sitioWeb": null,
+    "redes": [],
+    "productos": [
+      "Comida congelada",
+      "Tequeños"
+    ],
+    "envios": "Figura con entrega de comida congelada (sin confirmar)",
+    "horario": null,
+    "descripcion": "Food truck y catering de comida venezolana en Woolwich (arepas, tequeños, empanadas, tres leches). Un directorio de empresas lo lista con venta de congelados, pero no encontramos su web: consulta antes por teléfono.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "yummyrolls-bakery",
+    "nombre": "Yummyrolls Bakery",
+    "tipo": "Por confirmar",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Harringay, Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "sitioWeb": "https://deliveroo.co.uk/menu/london/harringay/yummyrolls-bakery-ltd",
+    "redes": [],
+    "productos": [
+      "Pan de jamón"
+    ],
+    "envios": "Delivery por Deliveroo",
+    "horario": null,
+    "descripcion": "Panadería de Harringay que vende un pan de jamón de inspiración venezolana (caja de 3 a £13,95). No es una tienda venezolana: se incluye por el pan de jamón.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "chatica",
+    "nombre": "Chatica (La Chatica)",
+    "tipo": "Por confirmar",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Elephant & Castle, Londres",
+    "direccion": "2 Elephant Road, London, SE17 1LB",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2%20Elephant%20Road%2C%20London%2C%20SE17%201LB",
+    "telefono": null,
+    "sitioWeb": null,
+    "redes": [],
+    "productos": [
+      "Productos latinoamericanos",
+      "Panadería"
+    ],
+    "envios": "Venta en el local",
+    "horario": null,
+    "descripcion": "Café colombiano con tienda de productos latinoamericanos junto a la estación Elephant & Castle. Las reseñas hablan de stock colombiano y sudamericano; no está confirmado que tenga productos venezolanos.",
+    "fechaAgregado": "2026-10-20",
+    "latitude": 51.493998,
+    "longitude": -0.098514
+  },
+  {
+    "id": "distriandina",
+    "nombre": "DistriAndina",
+    "tipo": "Por confirmar",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Elephant & Castle, Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "sitioWeb": null,
+    "redes": [],
+    "productos": [
+      "Productos latinoamericanos"
+    ],
+    "envios": "Venta en el local",
+    "horario": null,
+    "descripcion": "Mercado de comida latina bajo los arcos del ferrocarril de Elephant & Castle (planea mudarse al nuevo centro The Elephant a fines de 2026). Productos de Centro y Sudamérica; stock venezolano sin confirmar.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "mercado-latino",
+    "nombre": "Mercado Latino",
+    "tipo": "Por confirmar",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Elephant & Castle, Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "sitioWeb": null,
+    "redes": [],
+    "productos": [
+      "Productos latinoamericanos"
+    ],
+    "envios": "Venta en el local",
+    "horario": null,
+    "descripcion": "Tienda pequeña de productos latinoamericanos en la zona de Elephant & Castle, mencionada en una guía de ingredientes. No pudimos verificar su dirección ni si tiene productos venezolanos.",
+    "fechaAgregado": "2026-10-20"
   }
 ]
