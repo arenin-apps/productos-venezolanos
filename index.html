@@ -268,6 +268,11 @@
   }
   .visit:hover { background: var(--celeste-bright); }
 
+  .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; }
+  .actions .visit { margin-top: 0; }
+  .report { font-size: 12px; color: var(--text-faint); text-decoration: underline; text-underline-offset: 3px; }
+  .report:hover { color: var(--celeste); }
+
   .empty { text-align: center; padding: 70px 20px; color: var(--text-faint); }
   .empty .big { font-size: 34px; margin-bottom: 10px; }
   .empty p { margin: 4px 0; }
@@ -467,15 +472,19 @@
     if (r.direccion) {
       html += `<div class="card-row"><span class="icon">📍</span><span>${r.mapsUrl ? `<a href="${r.mapsUrl}" target="_blank" rel="noopener">${r.direccion}</a>` : r.direccion}</span></div>`;
     }
+    if (r.locales && r.locales.length) {
+      html += r.locales.map(l => `<div class="card-row"><span class="icon">📍</span><span><strong>${l.nombre}:</strong> ${l.mapsUrl ? `<a href="${l.mapsUrl}" target="_blank" rel="noopener">${l.direccion}</a>` : l.direccion}${l.nota ? ' — ' + l.nota : ''}</span></div>`).join('');
+    }
     if (r.horario) {
       html += `<div class="card-row"><span class="icon">🕒</span><span>${r.horario}</span></div>`;
     }
     if (r.telefono) {
       html += `<div class="card-row"><span class="icon">📞</span><span style="font-family:'IBM Plex Mono',monospace;"><a href="tel:${r.telefono.replace(/\s+/g, '')}">${r.telefono}</a></span></div>`;
     }
-    if (r.whatsapp) {
-      html += `<div class="card-row"><span class="icon">💬</span><span style="font-family:'IBM Plex Mono',monospace;"><a href="https://wa.me/${r.whatsapp.replace(/\D/g, '')}" target="_blank" rel="noopener">WhatsApp ${r.whatsapp}</a></span></div>`;
-    }
+    // WhatsApp: se muestra el número asociado ("WhatsApp +44 …") como enlace directo para escribir.
+    [].concat(r.whatsapp || []).forEach(w => {
+      html += `<div class="card-row"><span class="icon">💬</span><span style="font-family:'IBM Plex Mono',monospace;"><a href="https://wa.me/${w.replace(/\D/g, '')}" target="_blank" rel="noopener">WhatsApp ${w}</a></span></div>`;
+    });
     if (r.email) {
       html += `<div class="card-row"><span class="icon">✉️</span><span><a href="mailto:${r.email}">${r.email}</a></span></div>`;
     }
@@ -495,9 +504,11 @@
         html += `</div>`;
       }
     }
+    html += '<div class="actions">';
     if (r.sitioWeb) {
       html += `<a class="visit" href="${r.sitioWeb}" target="_blank" rel="noopener">Visitar tienda →</a>`;
     }
+    html += `<a class="report" href="https://venenin.uk/reportar-un-error/?tienda=${encodeURIComponent(r.nombre)}" target="_blank" rel="noopener">⚠ Reportar un error</a></div>`;
     html += `</div>`;
     return html;
   }
@@ -517,9 +528,13 @@
 
   function render() {
     if (state.nearestMode && state.userCoords) {
+      const puntos = r => (r.locales && r.locales.length ? r.locales : [r]).filter(p => typeof p.latitude === 'number' && typeof p.longitude === 'number');
       const withDistance = state.data
-        .filter(r => typeof r.latitude === 'number' && typeof r.longitude === 'number')
-        .map(r => ({ r, km: distanceKm(state.userCoords.lat, state.userCoords.lon, r.latitude, r.longitude) }))
+        .map(r => {
+          const ds = puntos(r).map(p => ({ p, km: distanceKm(state.userCoords.lat, state.userCoords.lon, p.latitude, p.longitude) })).sort((a, b) => a.km - b.km);
+          return ds.length ? { r, km: ds[0].km, local: r.locales && r.locales.length ? ds[0].p.nombre : null } : null;
+        })
+        .filter(Boolean)
         .sort((a, b) => a.km - b.km)
         .slice(0, 10);
 
@@ -533,7 +548,7 @@
         return;
       }
       $empty.style.display = 'none';
-      $list.innerHTML = withDistance.map(({ r, km }) => renderCard(r, formatDistance(km))).join('');
+      $list.innerHTML = withDistance.map(({ r, km, local }) => renderCard(r, formatDistance(km) + (local ? ' · ' + local : ''))).join('');
       return;
     }
 
