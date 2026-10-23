@@ -193,6 +193,32 @@
     "fechaAgregado": "2026-10-20"
   },
   {
+    "id": "danny-nobrega-food-seller",
+    "nombre": "Danny Nobrega Worldwide Food Seller",
+    "tipo": "Venta por Instagram",
+    "pais": "Inglaterra",
+    "county": "East Sussex",
+    "ciudad": "Brighton",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "sitioWeb": "https://www.instagram.com/dannynobrega_foodseller/",
+    "redes": [
+      {
+        "plataforma": "Instagram",
+        "handle": "@dannynobrega_foodseller"
+      }
+    ],
+    "productos": [
+      "Productos latinoamericanos",
+      "Cervezas y licores"
+    ],
+    "envios": "Pedidos por Instagram (ver condiciones de envío en su perfil)",
+    "horario": null,
+    "descripcion": "Vendedor de Brighton especializado en comestibles sudamericanos, cervezas y licores, con lo venezolano como su fuerte. Sugerido por la comunidad; vende y recibe pedidos por Instagram, sin tienda web.",
+    "fechaAgregado": "2026-10-20"
+  },
+  {
     "id": "yummyrolls-bakery",
     "nombre": "Yummyrolls Bakery",
     "tipo": "Panadería",
