@@ -300,5 +300,31 @@
     "horario": null,
     "descripcion": "Tienda pequeña de productos latinoamericanos en la zona de Elephant & Castle, mencionada en una guía de ingredientes. No pudimos verificar su dirección ni si tiene productos venezolanos.",
     "fechaAgregado": "2026-10-20"
+  },
+  {
+    "id": "la-casa-de-los-tequenos-uk",
+    "nombre": "La Casa de los Tequeños UK",
+    "tipo": "Productor de tequeños",
+    "pais": "Inglaterra",
+    "county": "Greater Manchester",
+    "ciudad": "Salford, Manchester",
+    "direccion": "152 Broughton Lane, Salford, M7 1UF",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=152%20Broughton%20Lane%2C%20Salford%2C%20M7%201UF",
+    "telefono": null,
+    "whatsapp": "+44 7591 817518",
+    "email": "tequenos.sales.uk@gmail.com",
+    "sitioWeb": "https://lacasadelostequenosuk.co.uk",
+    "redes": [],
+    "productos": [
+      "Tequeños",
+      "Comida congelada",
+      "Quesos"
+    ],
+    "envios": "Todo el Reino Unido (el costo varía según la zona; se confirma con el pedido). Pedidos en su web o por WhatsApp",
+    "horario": null,
+    "descripcion": "Productores venezolanos de tequeños desde 2024, en varias presentaciones y en paquetes congelados listos para cocinar. También venden queso paisa. Venden al público y a restaurantes, bares y empresas de catering.",
+    "fechaAgregado": "2026-10-26",
+    "latitude": 53.49654,
+    "longitude": -2.261054
   }
 ]
