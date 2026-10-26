@@ -314,7 +314,12 @@
     "whatsapp": "+44 7591 817518",
     "email": "tequenos.sales.uk@gmail.com",
     "sitioWeb": "https://lacasadelostequenosuk.co.uk",
-    "redes": [],
+    "redes": [
+      {
+        "plataforma": "Instagram",
+        "handle": "@lacasadelostequenosuk"
+      }
+    ],
     "productos": [
       "Tequeños",
       "Comida congelada",
