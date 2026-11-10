@@ -331,5 +331,35 @@
     "fechaAgregado": "2026-10-26",
     "latitude": 53.49654,
     "longitude": -2.261054
+  },
+  {
+    "id": "evelyn-and-grain",
+    "nombre": "Evelyn & Grain",
+    "tipo": "Panadería",
+    "pais": "Inglaterra",
+    "county": "Greater London",
+    "ciudad": "Croydon, Londres",
+    "direccion": null,
+    "mapsUrl": null,
+    "telefono": null,
+    "email": null,
+    "sitioWeb": "https://www.instagram.com/evelynandgrain/",
+    "redes": [
+      {
+        "plataforma": "Instagram",
+        "handle": "@evelynandgrain"
+      }
+    ],
+    "productos": [
+      "Cachitos",
+      "Mini lunch",
+      "Mini pan de jamón",
+      "Pan de jamón",
+      "Hallacas"
+    ],
+    "envios": "Cajas para Londres y eventos, pedidos por Instagram (ver condiciones en su perfil)",
+    "horario": null,
+    "descripcion": "Panadería venezolana de Croydon (Londres) que hornea a mano cachitos, mini lunch, pan de jamón y mini pan de jamón; quien la sugirió indica que también hace hallacas. Su perfil de Instagram anuncia cajas para Londres y eventos. Sugerida por la comunidad; recibe pedidos por Instagram, sin tienda web.",
+    "fechaAgregado": "2026-11-10"
   }
 ]
